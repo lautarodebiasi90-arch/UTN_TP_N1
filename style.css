@@ -1,24 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Arial, sans-serif;
-}
-
-body {
-    font-family: var(--font-main);
-    color: var(--text-dark);
-    background-color: var(--white);
-    line-height: 1.5;
-    overflow-x: hidden;
-    max-width: 1200px;
-    width: 100%;
-    margin: 0 auto;
-    padding: 0 20px;
-}
-
 :root {
     --purple-main: #631ae6;
     --purple-dark: #2b0066;
@@ -31,6 +12,28 @@ body {
     --max-width: 1200px;
 }
 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    font-family: var(--font-main);
+    color: var(--text-dark);
+    background-color: var(--bg-light);
+    line-height: 1.5;
+    overflow-x: hidden;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+main{
+  max-width: 1024;
+  margin: 0 auto;
+}
 
 /*header*/
 .main-header {
