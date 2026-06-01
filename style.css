@@ -234,9 +234,16 @@ main{
     padding:40px 70px;
 }
 .card2{
-    display:flex;
-    justify-content:space-between;
+    display: flex;
+    justify-content:space-betwee;
     align-items:center; 
+}
+
+@media screen and (max-width: 768px) {
+    .card2 {
+        flex-direction: column;
+        gap: 10px;
+    }
 }
 
 .texto h1{
