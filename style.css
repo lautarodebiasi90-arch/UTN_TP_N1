@@ -25,7 +25,6 @@ body {
     background-color: var(--bg-light);
     line-height: 1.5;
     overflow-x: hidden;
-    max-width: 1200px;
     width: 100%;
     margin: 0 auto;
 }
